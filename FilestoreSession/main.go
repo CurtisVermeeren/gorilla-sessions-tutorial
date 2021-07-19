@@ -28,7 +28,7 @@ func init() {
 	encryptionKeyOne := securecookie.GenerateRandomKey(32)
 
 	store = sessions.NewFilesystemStore(
-		"sessions/",
+		"",
 		authKeyOne,
 		encryptionKeyOne,
 	)

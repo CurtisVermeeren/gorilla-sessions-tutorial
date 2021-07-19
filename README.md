@@ -10,6 +10,7 @@ An example use case could be a class of students needing a code to view school a
 Without the code you will not be authenticated in the session and redirected away from the secret message. 
 
 ## Running the project
+Run `go get` to download the gorilla packages needed. 
 From either of the two implementation directories using `go run .` to start the server.
 
 Navigate to `localhost:8080` to view the project in your browser. 
